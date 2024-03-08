@@ -142,11 +142,13 @@ p, h1, h2, h3, h4, h5, h6, a {
     margin: 1.25rem;
     text-align: center;
 }
-.english,
-.geography,
-.logic,
-.coc p {
-    color: #f8f7f7;
+header p {
+    color: #fff; /* Set the text color to white */
+}
+.t{
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
 }
 
 .english,
@@ -154,4 +156,16 @@ p, h1, h2, h3, h4, h5, h6, a {
 .logic,
 .coc h2 {
     color: #000000;
+}
+.coc,
+.coc h2:hover,
+.english h2:hover,
+.geography h2:hover,
+.logic h2:hover,
+.pdf-section h2:hover,
+.contact h2:hover {
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.5s, font-size 0.5s, font-weight 0.5s, text-decoration 5s;
 }
