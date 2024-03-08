@@ -104,21 +104,6 @@ p, h1, h2, h3, h4, h5, h6, a {
     cursor: pointer;
 }
 
-/* Common styles for all devices */
-@media only screen and (max-width: 48rem) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-    
-    .about h2 {
-        font-size: 1.75rem;
-    }
-    
-    .pdf-section {
-        font-size: 0.875rem;
-    }
-}
-
 @media only screen and (max-width: 30rem) {
     header h1 {
         font-size: 1.125rem;
@@ -136,6 +121,19 @@ p, h1, h2, h3, h4, h5, h6, a {
         font-size: 1rem;
     }
 }
+
+    .about,
+    .section,
+    .english,
+    .geography,
+    .logic,
+    .coc,
+    .pdf-section,
+    .contact {
+        padding: 0.625rem;
+        margin: 0.625rem;
+    }
+
 .english,
 .geography,
 .logic,
