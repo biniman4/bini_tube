@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-bottom: 80px; /* Increased padding to accommodate the footer */
+    background-color: #558192;
+    overflow-x: hidden;
+    
+}
+
+header {
+    background-color: #11262b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    padding: 20px;
+    margin: 20px;
+    color: #251818;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.section {
+    background-color:  #558192;;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #478b40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+.m {
+    position: absolute;
+    top: 50px;
+    right: 17px;
+}
+
+#profile-image {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+}
+
+.pdf-section {
+    overflow-x: auto; /* Allow horizontal scrolling in the PDF section */
+    padding-left: 20px; /* Add left padding */
+}
+
+.pdf-section a {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about h2 {
+    color: #f8f7f7;
+    font-size: 35px;
+}
+
+.about h2:hover {
+    color: darkorange;
+    cursor: pointer;
+}
+
+.about p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    cursor: pointer;
+}
+
+.english, .geography, .logic, .coc {
+    background-color:  #558192;;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+form input[type="submit"] {
+    background-color: #86875e;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #bbd0b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.contact{
+    padding-left: 20px;
+}
+.t{
+    color: rgb(244, 241, 237);
+    border: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
