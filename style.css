@@ -137,6 +137,7 @@ p, h1, h2, h3, h4, h5, h6, a {
 .english,
 .geography,
 .logic,
+.psycho,
 .coc {
 
     margin: 1.25rem;
@@ -152,12 +153,14 @@ header p {
 }
 
 .english,
+.psycho,
 .geography,
 .logic,
 .coc h2 {
     color: #000000;
 }
 .coc,
+.psycho h2:hover,
 .coc h2:hover,
 .english h2:hover,
 .geography h2:hover,
@@ -169,3 +172,24 @@ header p {
     font-weight: bold;
     transition: color 0.5s, font-size 0.5s, font-weight 0.5s, text-decoration 5s;
 }
+.social-media-links {
+    
+    
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        padding: 15px;
+        color: #ffffff;
+    }
+    .social-media-links-icon:hover {
+        color: darkorange;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 25px;
+        transition: color 0.5s, font-size 0.5s, font-weight 0.5s, text-decoration 5s;
+    }
+    .social-media-links ion-icon {
+        margin-right: 25px;
+        color: rgb(254, 255, 248);
+        font-size: 40px; /* Adjust the size as needed */
+    }
